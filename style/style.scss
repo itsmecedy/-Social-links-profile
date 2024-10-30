@@ -1,0 +1,25 @@
+/* CSS Reset */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding and border are included in total width and height */
+}
+
+html {
+  scroll-behavior: smooth; /* Optional for smooth scrolling */
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--grey-900);
+  color: var(--white);
+}
